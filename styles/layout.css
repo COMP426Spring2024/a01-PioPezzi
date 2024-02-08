@@ -1,0 +1,111 @@
+body.main {
+    background-image: url(../images/RedTexture.jpeg);
+}
+
+body.cavs {
+  background-color: #964B00;
+}
+
+body.heat {
+  background-color: #EC7676;
+}
+
+#bible {
+  font-family: Arial, Helvetica, sans-serif
+
+}
+
+body.lakers {
+  background-color: #8B3EC6;
+}
+
+div {
+  border-radius: 25px;
+  border: 9px;
+  border-style: solid;
+  border-color: black;
+}
+div.title {
+  height: 90px;
+  width: 400px;
+  margin: auto;
+  background-color: brown;
+  
+}
+
+div.book {
+  height: 150px;
+  width: 180px;
+  margin: auto;
+  background-color: orange;
+  position: relative;
+  bottom: -200px;
+}
+
+div.book:hover {
+  background-color: #B59595;
+}
+
+tr a {
+  text-align: center;
+  width: 60px;
+  height: 40px;
+  border: 5px;
+  border: solid;
+  background-color: rgb(172, 172, 161);
+}
+
+h1 {
+    color:	#FFEEEE;
+    font-family: cursive;
+    text-align: center;
+  }
+  
+  p {
+    color: antiquewhite;
+    font-family: cursive;
+  }
+
+  body.heat p {
+    color: black;
+  }
+
+  h2 {
+    color: #FFEEEE;
+    border: 1px solid black;
+    text-align: center;
+
+  }
+
+  div.left {
+    width: 400px;
+    position:absolute;
+    left: 0;  
+  }
+
+  div.right {
+    width: 400px;
+    position:absolute;
+    right: 0;
+
+  }
+
+  table {
+    position:absolute;
+    bottom:0;
+    left: 400px;
+    background-color: antiquewhite;
+    border: black;
+    border-radius: 10px;
+  }
+
+  img.left {
+    position:absolute;
+    bottom:0;
+    left:0;
+  }
+  img.right {
+    position:absolute;
+    bottom:0;
+    right:0
+  }
